@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="117dp"
+        android:text="Trip Planner"
+        android:textColor="#00796B"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Destination"
+        android:textColorHint="#757575"
+        android:background="#FFFFFF"
+        android:padding="12dp"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="24dp" />
+
+    <EditText
+        android:id="@+id/editTextStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start Date (MM/dd/yyyy)"
+        android:textColorHint="#757575"
+        android:background="#FFFFFF"
+        android:padding="12dp"
+        android:layout_below="@id/editTextDestination"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="End Date (MM/dd/yyyy)"
+        android:textColorHint="#757575"
+        android:background="#FFFFFF"
+        android:padding="12dp"
+        android:layout_below="@id/editTextStartDate"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonPlanTrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Plan Trip"
+        android:textColor="#FFFFFF"
+        android:background="#009688"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_below="@id/editTextEndDate"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="32dp" />
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextExpenseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Expense Name"
+        android:padding="12dp"
+        android:background="@drawable/edittext_bg"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextExpenseAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Expense Amount"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:background="@drawable/edittext_bg"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/editTextExpenseName"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonAddExpense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Expense"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_bg"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_below="@id/editTextExpenseAmount" />
+
+    <TextView
+        android:id="@+id/textViewTotalAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Amount Spent: $0.00"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/buttonAddExpense"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>
