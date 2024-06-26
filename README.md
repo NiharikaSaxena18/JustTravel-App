@@ -1,6 +1,6 @@
 # JustTravel-App
 ## A one-stop app for managing your travel experience.
-- Welcome to the Tourism App! This Android application was developed as a course project for the subject “Mobile Application Technologies” during semester 2. It aims to provide users with a convenient way to manage their travel experiences.
+- Welcome to the Tourism App! This Android application was developed as a course project for the subject “Mobile Application Technologies” during Semester-2. It aims to provide users with a convenient way to manage their travel experiences.
 - Here are the key features of the app:-
 1. **Basic Login Page:** Users can securely log in to access personalized features.
 2. **Home Page:** The central hub of the app, where users can explore various travel-related functionalities.
